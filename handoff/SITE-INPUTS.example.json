@@ -1,0 +1,67 @@
+{
+  "purpose": "Non-secret intake worksheet, NOT setup.py settings. Null means unresolved. Do not put passwords, tokens or private-key content here.",
+  "site": {
+    "site_id": null,
+    "display_name": null,
+    "owner_email": null,
+    "public_https_origin": null,
+    "linux_lan_bind_ipv4": null,
+    "approved_client_cidrs": [],
+    "dns_or_dhcp_reservation_confirmed": false,
+    "new_installation_directory": null
+  },
+  "linux_access": {
+    "authorized_ssh_host_or_alias": null,
+    "authorized_ssh_user": null,
+    "sudo_or_local_admin_available": false,
+    "distribution_version": null,
+    "architecture": null,
+    "python_version": null,
+    "docker_engine_version": null,
+    "docker_compose_v2_version": null,
+    "available_ram_gib": null,
+    "available_disk_gib": null
+  },
+  "existing_model": {
+    "runtime_and_version": null,
+    "service_or_container_identity": null,
+    "api_base_from_linux_host": null,
+    "api_key_required": null,
+    "selected_actual_model_id": null,
+    "actual_per_request_context_tokens": null,
+    "output_token_limit": null,
+    "configured_parallel_slots": null,
+    "other_model_consumers": [],
+    "streaming_and_tool_calls_verified": false,
+    "model_license_approved": false
+  },
+  "ports_proposed_not_yet_approved": {
+    "https": 9443,
+    "database_loopback": 15432,
+    "gateway_loopback": 18400,
+    "portal_loopback": 18401
+  },
+  "tls_and_policy": {
+    "mode_company_or_internal": null,
+    "server_certificate_path_on_linux": null,
+    "private_key_path_on_linux_not_key_content": null,
+    "public_root_certificate_path_on_linux": null,
+    "fingerprint_delivery_channel": null,
+    "windows_trust_distribution_approved": false,
+    "linux_image_downloads_allowed": false,
+    "windows_publisher_downloads_allowed": false,
+    "corporate_proxy_or_tls_inspection_requirements": null,
+    "helper_signing_or_allowlisting_requirement": null,
+    "opencode_approved": false,
+    "claude_code_policy_and_terms_approved": false
+  },
+  "acceptance": {
+    "first_windows_laptop_identifier": null,
+    "second_physical_windows_laptop_identifier": null,
+    "target_concurrent_users": 5,
+    "acceptable_first_token_latency_seconds": null,
+    "acceptable_task_completion_seconds": null,
+    "backup_owner_and_encrypted_location": null,
+    "approved_maintenance_window": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "record_type": "sanitized_historical_evidence_not_company_acceptance",
+  "date": "2026-10-25",
+  "source": "original evidence/2026-10-25-central-portal-v2.json and ACCEPTANCE.md",
+  "physical_windows_laptops": 1,
+  "disposable_internal_user": true,
+  "clean_two_harness_enrollment_ready": true,
+  "total_seconds": 112.123,
+  "opencode_real_read_seconds": 87.316,
+  "claude_real_read_seconds": 19.418,
+  "recovered_interrupted_finalization_previously_tested": true,
+  "normal_user_logout_and_device_revocation": true,
+  "revoked_keys_http_status": [401, 401],
+  "test_account_deleted": true,
+  "remaining_test_keys": 0,
+  "historical_checks": {
+    "portal_tests_windows_and_pinned_linux": 10,
+    "company_config_tests": 4,
+    "native_contract_assertions": 32,
+    "legacy_home_gateway_tests": 19,
+    "legacy_home_installer_tests": 2,
+    "browser_https_csp_download_layout": true,
+    "browser_auth_approval_revoke_used_synthetic_ui_fixtures": true,
+    "real_auth_approval_exercised_through_api": true,
+    "linux_fresh_init_config_import_publish": true,
+    "existing_model_and_gateway_not_restarted": true
+  },
+  "home_tested_helper_sha256": "f4849b502423da3d5324b3a8cc7fd2704c2cfd23d5fdf31343a4b0ca6bc12f2d",
+  "not_completed_at_home": [
+    "second_physical_windows_laptop",
+    "fresh_four_service_stack_end_to_end_startup_and_owner_activation",
+    "fresh_database_model_create_update",
+    "company_model_tool_use_context_license_and_capacity",
+    "corporate_pki_firewall_signing_proxy_and_restore_acceptance"
+  ],
+  "fresh_stack_deferral_reason": "About 3.58 GiB free RAM; no second full gateway stack started beside the running model.",
+  "secrets_and_home_network_identity_removed": true
+}

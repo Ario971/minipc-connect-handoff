@@ -1,0 +1,23 @@
+# Runtime, generated site configuration and private state are not source.
+.venv*/
+__pycache__/
+*.pyc
+.native-contract-check/
+releases/
+settings.json
+site-settings.json
+installation.json
+pilot.json
+secrets/
+private/
+data/
+connect-public/
+portal-service/
+*.env
+.env*
+*.key
+*.dpapi
+*.sqlite
+*.sqlite-*
+*.pfx
+*.p12
